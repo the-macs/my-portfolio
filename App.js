@@ -12,6 +12,6 @@ app.get('/', (req, res) => {
 })
 
 // Running Server
-app.listen(process.env.DEFAULT_PORT || 3001, () => {
-    console.log('listening on port: ' + process.env.DEFAULT_PORT || 3001)
+app.listen(process.env.PORT, () => {
+    console.log('listening on port: ' + process.env.PORT)
 })
